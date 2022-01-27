@@ -16,6 +16,7 @@
 
 # Product launched with 10.0
 PRODUCT_SHIPPING_API_LEVEL := 29
+BOARD_SHIPPING_API_LEVEL := 30
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)

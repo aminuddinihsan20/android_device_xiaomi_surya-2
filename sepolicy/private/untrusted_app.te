@@ -1,0 +1,15 @@
+allow untrusted_app app_data_file:file { execute  execute_no_trans };
+allow untrusted_app input_device:dir { search };
+allow untrusted_app mnt_sdcard_file:lnk_file { read };
+allow untrusted_app oem_unlock_prop:file { read };
+allow untrusted_app proc:file { read };
+allow untrusted_app proc_net:file { read };
+allow untrusted_app proc_net_tcp_udp:file { read };
+allow untrusted_app proc_zoneinfo:file { read };
+allow untrusted_app qemu_hw_prop:file { read };
+allow untrusted_app qemu_sf_lcd_density_prop:file { read };
+allow untrusted_app serialno_prop:file { read };
+allow untrusted_app sysfs_net:dir { search };
+allow untrusted_app system_lib_file:file { execmod };
+allow untrusted_app untrusted_app:netlink_route_socket { bind };
+allow untrusted_app window_service:service_manager { find };

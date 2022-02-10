@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_surya.mk
+    $(LOCAL_DIR)/xdroidoss_surya.mk
 
 COMMON_LUNCH_CHOICES := \
     xdroidoss_surya-user \
